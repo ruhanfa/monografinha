@@ -1,0 +1,25 @@
+X. Ruby
+	Ruby é uma linguagem com um equilíbrio cuidadoso. Criada por Yukihiro “Matz” Matsumoto, Ruby é uma mistura de suas linguagens favoritas (Ada, Lisp, Perl, Smalltalk e Eiffel) tendo como finalidade uma linguagem que equilibre programação funcional e programação imperativa.
+	Seu criador costuma dizer que Ruby foi feita para parecer natural, de forma que espelhe a vida e não uma linguagem simples. E ele acrescenta: “Ruby é simples em aparência, mas é muito complexa por dentro, assim como o corpo humano” (Matz, falando na lista de correio Ruby-Talk, 12 Mai. 2000.).
+	Desde seu lançamento em 1995, Ruby atraiu programadores devotados por todo o mundo. Em 2006, Ruby alcançou uma aceitação em massa, com a formação de grupos de usuários ativos nas principais cidades do mundo e com conferências relacionadas ao Ruby lotadas.
+	Ruby-Talk, a principal lista de correio para discussão da linguagem, atingiu uma média de 200 mensagens por dia em 2006. Nos anos recentes essa média caiu já que grande parte da comunidade levou a discussão para grupos menores.
+ 
+                                                            Figura 1
+
+	Ruby se encontra na 18ª posição (TIOBE index) no índice que mede o crescimento e a popularidade de linguagens de programação no mundo todo e já chegou a ficar entre as 10 primeiras. Muito desse crescimento é atribuído a popularidade de softwares escritos em Ruby, principalmente o framework Ruby on Rails.
+	Ruby também é completamente de graça, de graça para usar, copiar, modificar e distribuir.
+	
+	
+X. Ruby on Rails
+	O framework Ruby on Rails foi criado a partir de um sistema de gerenciamento de projetos chamado Basecamp. Sua primeira versão foi lançada oficialmente em 25 de julho de 2004 e todo o seu desenvolvimento conta com colaboradores do mundo todo liderados pelo programador dinamarquês David Heinemeier Hansson.
+	
+X.X MVC
+	Um padrão de projeto descreve e provê uma solução para um problema frequente de forma que seja genérico e reutilizável. Eles são criados a partir de problemas comuns que são enfrentados no desenvolvimento de projetos de software.
+	A criação de componentes reutilizáveis é uma das técnicas mais exploradas em Engenharia de Software. Seu uso diminui o tempo de desenvolvimento e a quantidade de erros na codificação. Um padrão pode ser entendido como a abstração de detalhes sobre a implementação de um software.
+	O padrão de projeto MVC divide o desenvolvimento em três camadas: Visão (View), Controlador (Controller) e Modelo (Model). A separação das camadas permite o aumento da flexibilidade e reuso do código. Sem essa separação, as funcionalidades poderiam ficar misturadas, fazendo com que um esforço maior que o normal seja necessário na hora de uma manutenção. 
+ 
+                                                            Figura 2
+
+A camada de Modelo representa o estado da aplicação. Ela é responsável por fazer a interação da aplicação com a fonte de dados. É através dessa camada que as informações manipuladas pelo sistema podem ser armazenadas na base de dados. As regras de negócio são incorporados no Modelo.
+A camada Controle é responsável por receber os dados do usuário e definir o fluxo da aplicação, invocando alterações dos dados da camada Modelo.
+A camada visão é responsável por apresentar a aplicação ao usuário.
